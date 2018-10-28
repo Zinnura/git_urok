@@ -9,7 +9,6 @@ html {
 }
 body {
 	margin: 0;
-
 }
 .row:after {
 	content: "";
@@ -21,7 +20,6 @@ body {
 	margin-top: auto;
 	margin-bottom: auto;
 }
-
 .col {
 	float: left;  
 	padding: 15px;
@@ -32,41 +30,34 @@ body {
 	padding: 15px;
 	padding: 15px;
 }
-
-
 .col-2 {
 	max-width: 50%;
-
 }
 img {
 	max-width: 100%;
 }
-#first  {
+#first p {
 	text-align: right, justify;
 	color: white;
 	font-size: 20px;
 }
-#second  {
-	
+#second p {
+	text-align: left, justify;
 	color: white;
 	font-size: 20px;
 }
 #banner {
-	background-image: url(./tema7.jpeg);
+	background-image: url(../tema7.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 10px;
 	padding-bottom: 20px;
 }
 #banner h1 {
-	font-size: 30px;
+	font-size: 40px;
 	color: white;
-
-}
-.text-align{
 	text-align: center;
 }
-
 @media screen and (max-width: 600px;) {
 	.col {
 		float: none;
