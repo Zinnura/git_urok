@@ -9,6 +9,7 @@ html {
 }
 body {
 	margin: 0;
+	background-image: url(tema2.jpeg);
 }
 .row:after {
 	content: "";
@@ -47,7 +48,7 @@ img {
 	font-size: 20px;
 }
 #banner {
-	background-image: url(../tema7.jpeg);
+	background-image: url(tema7.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 10px;
